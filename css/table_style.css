@@ -1,0 +1,91 @@
+/*鍩烘湰琛ㄦ牸鏍峰紡*/
+.tableStyle{
+ 	border-collapse: collapse;
+	border: 1px solid #cccccc;
+	width: 100%;
+	background-color: White;
+}
+.noBottomLine{
+	border-bottom:0!important;
+}
+.th{
+	border-left: 1.0pt solid windowtext;
+	border-right: 1.0pt solid windowtext;
+	word-wrap: normal;
+	word-break: keep-all;
+	overflow:hidden;
+	border-color: #cccccc;
+	height:28px; 
+	padding: 0 2px 0 4px;
+	color:#000000;
+	background-image: url(../table/th_bg.jpg);
+	background-repeat: repeat-x;
+	font-weight: normal;
+	line-height:28px; 
+}
+.th_over{
+	border-left: 1.0pt solid windowtext;
+	border-right: 1.0pt solid windowtext;
+	word-wrap: normal;
+	word-break: keep-all;
+	overflow:hidden;
+	border-color: #cccccc;
+	height:28px; 
+	padding: 0 2px 0 4px;
+	color:#000000;
+	background-image: url(../table/th_bg_over.jpg);
+	background-repeat: repeat-x;
+	font-weight: normal;
+	line-height:28px; 
+}
+.tableStyle td{
+	border-left: 1.0pt solid windowtext;
+	border-right: 1.0pt solid windowtext;
+	border-bottom: 1.0pt solid windowtext;
+	word-wrap: normal;
+	word-break: keep-all;
+	border-color: #cccccc;
+	height:24px; 
+	padding: 1px 2px 1px 4px;
+	color:#333333;
+}
+/*鍩烘湰琛ㄦ牸鏍峰紡*/
+
+/*琛ㄦ牸闅旇棰滆壊銆侀紶鏍囩Щ鍏ユ煇琛岄鑹层�侀�変腑鏌愯棰滆壊*/
+tr.odd{ 
+	background:#f7f7f7;
+}
+tr.highlight{ 
+	background:#eaf6fc;/*榧犳爣绉诲叆楂樹寒鑹�*/
+}
+tr.selected{ 
+	background:#d9ebf5;/*鐐瑰嚮鍚庤儗鏅壊*/
+	background-image: url(../table/trhl_bg.jpg);
+	background-repeat:repeat-x;
+}
+/*琛ㄦ牸闅旇棰滆壊銆侀紶鏍囩Щ鍏ユ煇琛岄鑹层�侀�変腑鏌愯棰滆壊*/
+
+ /*全选*/
+.img_checkAllOff{
+	background-image: url(../table/checkAllOff.gif);
+	background-repeat: no-repeat;
+	width: 13px;
+	height: 13px;
+	display: block;
+	padding:0 0 0 4px;
+	background-position:100% 0%;
+	cursor:pointer;
+	cursor:hand;
+}
+.img_checkAllOn{
+	background-image: url(../table/checkAllON.gif);
+	background-repeat: no-repeat;
+	width: 13px;
+	height: 13px;
+	display: block;
+	padding:0 0 0 4px;
+	background-position:100% 0%;
+	cursor:pointer;
+	cursor:hand;
+}
+ /*全选*/

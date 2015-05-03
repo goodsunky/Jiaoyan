@@ -1,0 +1,25 @@
+input.button{
+	font-size: 16px;
+	text-decoration: none;
+	letter-spacing: 2px;
+	background-image: url(../images/button.gif);
+	height: 22px;
+	width: 50px;
+	border: 1px solid #D18C0C;
+	background-repeat: repeat-x;
+	font-family: "ËÎÌו",sans-serif;
+	color: #333333;
+	margin-top:2px;
+}
+input.button2{
+	font-size: 12px;
+	text-decoration: none;
+	letter-spacing: 2px;
+	background-image: url(../images/button.gif);
+	height: 18px;
+	border: 1px solid #D18C0C;
+	background-repeat: repeat-x;
+	font-family: "ËÎÌו",sans-serif;
+	color: #333333;
+	margin-top:2px;
+}

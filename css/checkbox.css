@@ -1,0 +1,21 @@
+/*checkbox与radio*/
+.cust_checkbox{
+	font-size:15px;
+	cursor: pointer;
+}
+.cust_checkbox_on{
+	background:url(form/checkbox_on.jpg) no-repeat 0 0;
+}
+.cust_checkbox_hvr{
+	background:url(form/checkbox_hvr.jpg) no-repeat 0 0 !important;
+}
+.cust_checkbox_off{
+	background:url(form/checkbox_off.jpg) no-repeat 0 0;
+}
+.cust_checkbox_disabled_on{
+	background:url(form/checkbox_disabled_on.jpg) no-repeat 0 0;
+}
+.cust_checkbox_disabled_off{
+	background:url(form/checkbox_disabled_off.jpg) no-repeat 0 0;
+}
+/*checkbox与radio*/

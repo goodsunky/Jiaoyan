@@ -1,0 +1,23 @@
+a:link {
+	color: #FF0000;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #FF0000;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+a:active {
+	color: #FF0000;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #FF0000;
+	font-weight: normal;
+	text-decoration: none;
+}

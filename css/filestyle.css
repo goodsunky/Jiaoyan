@@ -1,0 +1,103 @@
+/*上传控件样式*/
+.file{
+	width:340px;
+	height:28px;
+	margin-top:16px
+}
+.file-container{
+	display:inline;
+}
+.fileBtn{
+	background-image: url(../images/fileBtn.jpg);
+	width:47px;
+	height:22px;
+	border:0;
+	margin:0px 0px 0px 15px;
+}
+.textinput{
+	font-size: 12px;
+	background:url(../images/textinput_bg.jpg) repeat-x scroll left top #ffffff;
+	border-color:#a2b3bd;
+	border-style:solid;
+	border-width:1px;
+	color:#336699;
+	height: 18px;
+	line-height: 18px;
+}
+/*上传控件样式*/
+/*信息提示*/
+.tooltip{
+	width: 200px; 
+	color:#000;
+	text-decoration:none;
+	text-align:left;
+	display:block;
+	word-wrap: break-word;
+	word-break: break-all;
+}
+.tooltip_min{
+	width: 80px; 
+	color:#000;
+	text-decoration:none;
+	text-align:center;
+	display:block;
+	word-wrap: break-word;
+	word-break: break-all;
+}
+.tooltip_mid{
+	width: 130px; 
+	color:#000;
+	text-align:left;
+	text-decoration:none;
+	text-align:center;
+	display:block;
+	word-wrap: break-word;
+	word-break: break-all;
+}
+.tooltip .top{
+	padding: 30px 8px 0;
+    background: url(../images/bt.gif) no-repeat top;
+	display:block;
+}
+.tooltip .bottom{
+	padding:3px 8px 15px;
+	color: #548912;
+    background: url(../images/bt.gif) no-repeat bottom;
+	display:block;
+}
+.tooltip_min .top{
+	padding: 25px 8px 0;
+    background: url(../images/bt_min.gif) no-repeat top;
+	display:block;
+}
+.tooltip_min .bottom{
+	padding:3px 8px 5px;
+	color: #548912;
+    background: url(../images/bt_min.gif) no-repeat bottom;
+	display:block;
+}
+.tooltip_mid .top{
+	padding: 25px 8px 0;
+	text-align:left;
+	line-height:150%;
+    background: url(../images/bt_mid.gif) no-repeat top;
+	display:block;
+}
+.tooltip_mid .bottom{
+	padding:3px 8px 5px;color: #548912;
+	text-align:left;
+	line-height:150%;
+    background: url(../images/bt_mid.gif) no-repeat bottom;
+	display:block;
+}
+
+#cursorMessageDiv {
+	position: absolute;
+	z-index: 99999;
+	border: solid 1px #cc9933;
+	background: #ffffcc;
+	padding: 2px;
+	margin: 0px;
+	display: none;
+}
+/*信息提示*/

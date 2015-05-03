@@ -1,0 +1,32 @@
+.date{
+	background-color:#f1f9fc;
+	border-color:#a2b3bd;
+	background-image: url(../images/datePicker.gif)!important;
+	background-repeat: no-repeat!important;
+	background-position: 100% 50%!important;
+	height:18px;
+    width:120px;
+	border-style:solid;
+	border-width:1px;
+	font-size: 12px;
+	color: #336699;
+}
+.date_hover{
+	border-color:#00ccff!important;/* Û±Í“∆»Î±ﬂøÚ—’…´*/
+}
+.date_click{
+	border-color:#fbd45c!important;
+}
+.cusDate{
+	background-color: #ffffff;
+	background-image: url(../images/datePicker.gif);
+	background-repeat: no-repeat;
+	background-position: 100% 50%;
+	height:18px;
+    width:90px;
+	border-color:#cccccc;
+	border-style:solid;
+	border-width:1px;
+	font-size: 12px;
+	color: #336699;
+}

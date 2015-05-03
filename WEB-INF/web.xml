@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee 
+	http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+	<servlet>
+		<servlet-name>LoginServlet</servlet-name>
+		<servlet-class>com.jiaoyan.LoginServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LoginServlet</servlet-name>
+		<url-pattern>/LoginServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>NoticeServlet</servlet-name>
+		<servlet-class>com.jiaoyan.notice.NoticeServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>NoticeServlet</servlet-name>
+		<url-pattern>/NoticeServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>NoticeControl</servlet-name>
+		<servlet-class>com.jiaoyan.notice.NoticeControl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>NoticeControl</servlet-name>
+		<url-pattern>/NoticeControl</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>UploadDownloadControl</servlet-name>
+		<servlet-class>com.jiaoyan.notice.UploadDownloadControl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UploadDownloadControl</servlet-name>
+		<url-pattern>/UploadDownloadControl</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>ExpertServlet</servlet-name>
+		<servlet-class>com.jiaoyan.expert.ExpertServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ExpertServlet</servlet-name>
+		<url-pattern>/ExpertServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ExpertControl</servlet-name>
+		<servlet-class>com.jiaoyan.expert.ExpertControl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ExpertControl</servlet-name>
+		<url-pattern>/ExpertControl</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>JiaogaiServlet</servlet-name>
+		<servlet-class>com.jiaoyan.jiaogai.JiaogaiServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>JiaogaiServlet</servlet-name>
+		<url-pattern>/JiaogaiServlet</url-pattern>
+	</servlet-mapping>
+		
+	<servlet>	
+		<servlet-name>KechengServlet</servlet-name>
+		<servlet-class>com.jiaoyan.kecheng.KechengServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>KechengServlet</servlet-name>
+		<url-pattern>/KechengServlet</url-pattern>
+	</servlet-mapping>	
+	
+	<servlet>	
+		<servlet-name>MultimediaServlet</servlet-name>
+		<servlet-class>com.jiaoyan.multimedia.MultimediaServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>MultimediaServlet</servlet-name>
+		<url-pattern>/MultimediaServlet</url-pattern>
+	</servlet-mapping>		
+	
+	<servlet>	
+		<servlet-name>JiaocaiServlet</servlet-name>
+		<servlet-class>com.jiaoyan.jiaocai.JiaocaiServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>JiaocaiServlet</servlet-name>
+		<url-pattern>/JiaocaiServlet</url-pattern>
+	</servlet-mapping>		
+	
+	
+	<servlet>	
+		<servlet-name>HuojiangServlet</servlet-name>
+		<servlet-class>com.jiaoyan.huojiang.HuojiangServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>HuojiangServlet</servlet-name>
+		<url-pattern>/HuojiangServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>	
+		<servlet-name>ZhuangyeServlet</servlet-name>
+		<servlet-class>com.jiaoyan.zhuangye.ZhuangyeServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ZhuangyeServlet</servlet-name>
+		<url-pattern>/ZhuangyeServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>	
+		<servlet-name>ZhuoyueServlet</servlet-name>
+		<servlet-class>com.jiaoyan.zhuoyue.ZhuoyueServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ZhuoyueServlet</servlet-name>
+		<url-pattern>/ZhuoyueServlet</url-pattern>
+	</servlet-mapping>
+	
+	<!--科研绩效 -->
+	<servlet>	
+		<servlet-name>KeyanServlet</servlet-name>
+		<servlet-class>com.jiaoyan.keyan.KeyanServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>KeyanServlet</servlet-name>
+		<url-pattern>/KeyanServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>	
+		<servlet-name>ZhuangliServlet</servlet-name>
+		<servlet-class>com.jiaoyan.zhuangli.ZhuangliServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ZhuangliServlet</servlet-name>
+		<url-pattern>/ZhuangliServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>	
+		<servlet-name>LunwenServlet</servlet-name>
+		<servlet-class>com.jiaoyan.lunwen.LunwenServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LunwenServlet</servlet-name>
+		<url-pattern>/LunwenServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>	
+		<servlet-name>YishuServlet</servlet-name>
+		<servlet-class>com.jiaoyan.yishu.YishuServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>YishuServlet</servlet-name>
+		<url-pattern>/YishuServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>	
+		<servlet-name>KeyanxmServlet</servlet-name>
+		<servlet-class>com.jiaoyan.keyanxm.KeyanxmServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>KeyanxmServlet</servlet-name>
+		<url-pattern>/KeyanxmServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>	
+		<servlet-name>DepartmentServlet</servlet-name>
+		<servlet-class>com.jiaoyan.necessaryinfo.DepartmentServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DepartmentServlet</servlet-name>
+		<url-pattern>/DepartmentServlet</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>	
+		<servlet-name>XueweiServlet</servlet-name>
+		<servlet-class>com.jiaoyan.necessaryinfo.XueweiServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>XueweiServlet</servlet-name>
+		<url-pattern>/XueweiServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>	
+		<servlet-name>PositionServlet</servlet-name>
+		<servlet-class>com.jiaoyan.necessaryinfo.PositionServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>PositionServlet</servlet-name>
+		<url-pattern>/PositionServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>	
+		<servlet-name>GangweiServlet</servlet-name>
+		<servlet-class>com.jiaoyan.necessaryinfo.GangweiServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GangweiServlet</servlet-name>
+		<url-pattern>/GangweiServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>	
+		<servlet-name>XuekeServlet</servlet-name>
+		<servlet-class>com.jiaoyan.necessaryinfo.XuekeServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>XuekeServlet</servlet-name>
+		<url-pattern>/XuekeServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>	
+		<servlet-name>JiaogaijifenServlet</servlet-name>
+		<servlet-class>com.jiaoyan.necessaryinfo.JiaogaijifenServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>JiaogaijifenServlet</servlet-name>
+		<url-pattern>/JiaogaijifenServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>	
+		<servlet-name>KechengjifenServlet</servlet-name>
+		<servlet-class>com.jiaoyan.necessaryinfo.KechengjifenServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>KechengjifenServlet</servlet-name>
+		<url-pattern>/KechengjifenServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>	
+		<servlet-name>MultimediajifenServlet</servlet-name>
+		<servlet-class>com.jiaoyan.necessaryinfo.MultimediajifenServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>MultimediajifenServlet</servlet-name>
+		<url-pattern>/MultimediajifenServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>	
+		<servlet-name>JiaocaijifenServlet</servlet-name>
+		<servlet-class>com.jiaoyan.necessaryinfo.JiaocaijifenServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>JiaocaijifenServlet</servlet-name>
+		<url-pattern>/JiaocaijifenServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>	
+		<servlet-name>HuojiangjifenServlet</servlet-name>
+		<servlet-class>com.jiaoyan.necessaryinfo.HuojiangjifenServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>HuojiangjifenServlet</servlet-name>
+		<url-pattern>/HuojiangjifenServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>	
+		<servlet-name>ZhuangyejifenServlet</servlet-name>
+		<servlet-class>com.jiaoyan.necessaryinfo.ZhuangyejifenServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ZhuangyejifenServlet</servlet-name>
+		<url-pattern>/ZhuangyejifenServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>	
+		<servlet-name>KeyanxmjifenServlet</servlet-name>
+		<servlet-class>com.jiaoyan.necessaryinfo.KeyanxmjifenServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>KeyanxmjifenServlet</servlet-name>
+		<url-pattern>/KeyanxmjifenServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>	
+		<servlet-name>KeyantdjifenServlet</servlet-name>
+		<servlet-class>com.jiaoyan.necessaryinfo.KeyantdjifenServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>KeyantdjifenServlet</servlet-name>
+		<url-pattern>/KeyantdjifenServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>	
+		<servlet-name>LunwenjifenServlet</servlet-name>
+		<servlet-class>com.jiaoyan.necessaryinfo.LunwenjifenServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LunwenjifenServlet</servlet-name>
+		<url-pattern>/LunwenjifenServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>	
+		<servlet-name>ZhuanglijifenServlet</servlet-name>
+		<servlet-class>com.jiaoyan.necessaryinfo.ZhuanglijifenServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ZhuanglijifenServlet</servlet-name>
+		<url-pattern>/ZhuanglijifenServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>	
+		<servlet-name>YishujifenServlet</servlet-name>
+		<servlet-class>com.jiaoyan.necessaryinfo.YishujifenServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>YishujifenServlet</servlet-name>
+		<url-pattern>/YishujifenServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>	
+		<servlet-name>JifenhuizongServlet</servlet-name>
+		<servlet-class>com.jiaoyan.huizong.JifenhuizongServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>JifenhuizongServlet</servlet-name>
+		<url-pattern>/JifenhuizongServlet</url-pattern>
+	</servlet-mapping>	
+	
+	
+	<servlet>	
+		<servlet-name>JiaoyanchengjiServlet</servlet-name>
+		<servlet-class>com.jiaoyan.jiaoyanchengji.JiaoyanchengjiServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>JiaoyanchengjiServlet</servlet-name>
+		<url-pattern>/JiaoyanchengjiServlet</url-pattern>
+	</servlet-mapping>	
+	
+	<servlet>	
+		<servlet-name>UserServlet</servlet-name>
+		<servlet-class>com.jiaoyan.user.UserServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UserServlet</servlet-name>
+		<url-pattern>/UserServlet</url-pattern>
+	</servlet-mapping>	
+	
+	<servlet>	
+		<servlet-name>ScorecoefServlet</servlet-name>
+		<servlet-class>com.jiaoyan.necessaryinfo.ScorecoefServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ScorecoefServlet</servlet-name>
+		<url-pattern>/ScorecoefServlet</url-pattern>
+	</servlet-mapping>	
+	
+	<servlet>	
+		<servlet-name>MonitorServlet</servlet-name>
+		<servlet-class>com.jiaoyan.necessaryinfo.MonitorServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>MonitorServlet</servlet-name>
+		<url-pattern>/MonitorServlet</url-pattern>
+	</servlet-mapping>	
+	
+	<servlet>	
+		<servlet-name>ExcelServlet</servlet-name>
+		<servlet-class>com.jiaoyan.excel.ExcelServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ExcelServlet</servlet-name>
+		<url-pattern>/ExcelServlet</url-pattern>
+	</servlet-mapping>
+	
+	<mime-mapping>
+		<extension>doc</extension>
+		<mime-type>application/msword</mime-type>
+	</mime-mapping>
+	<mime-mapping>
+		<extension>xls</extension>
+		<mime-type>application/vnd.ms-excel</mime-type>
+	</mime-mapping>	
+	<mime-mapping>
+		<extension>ppt</extension>
+		<mime-type>application/vnd.ms-powerpoint</mime-type>
+	</mime-mapping>
+	<mime-mapping>
+		<extension>zip</extension>
+		<mime-type>application/zip</mime-type>
+	</mime-mapping>
+	<mime-mapping>
+		<extension>rar</extension>
+		<mime-type>application/rar</mime-type>
+	</mime-mapping>	
+	<session-config>
+		<session-timeout>0</session-timeout>
+	</session-config>
+	<welcome-file-list>
+		<welcome-file>login.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>
+  
